@@ -13,7 +13,7 @@ python3 lock_server.py <PORT> <NUMBER_OF_RESOURCES> <NUMBER_OF_LOCKS_ALLOWED_BY_
 python3 lock_client.py <HOST> <PORT> <CLIENT_ID>
 ```
 
-**Client Comands:**
+**Client Commands:**
 ```
 LOCK <RESOURCE NUMBER>     : [11, True] or [11, False] or [11, None]
 RELEASE <RESOURCE NUMBER>  : [21, True] or [21, False] or [21, None]
